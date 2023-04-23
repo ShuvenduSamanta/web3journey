@@ -32,7 +32,7 @@ body{
   font-size: 25px;
   text-decoration: none;
   font-weight: 600;
-  color: rgb(218, 178, 255);
+  color: rgb(225, 0, 255);
 }
 .logo span{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -75,8 +75,39 @@ body{
   font-weight: 400;
   color: rgb(0, 217, 255);
 }
+.intro-content h3 span{
+  color: rgb(225, 0, 255);
+}
 .intro-content p{
   font-family: 'Courier New', Courier, monospace;
   font-size: 16px;
   font-weight: 100;
+}
+
+/* social */
+.social{
+  position: absolute;
+  bottom: 40px;
+  width: 300px;
+  display: flex;
+  justify-content: space-around;
+  
+}
+.social a{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  background: transparent;
+  border: 1px solid cyan;
+  font-size: 15px;
+  color: rgb(0, 217, 255);
+  text-decoration: none;
+}
+.social a:hover{
+  border: 0px;
+  font-size: 30px;
+  color: rgb(225, 0, 255);
+  transition: .2s;
 }
